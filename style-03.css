@@ -49,9 +49,9 @@ header .site-title {
 
 
 header nav {
-  margin: 1rem 0;
+ padding: 1rem;
+  margin: 1rem;
 }
-
 
 header nav ul {
   /* Remove the list styles */
@@ -62,8 +62,8 @@ header nav ul {
   /* You may also have tweak the margin and padding */
 
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 20px;
+  padding: 0.5px;
 }
 
 
@@ -120,7 +120,7 @@ main section.hero {
 
   padding: 50px;
   background-color:blueviolet;
-  border-radius:3rem;
+  border-radius: 3rem;
 }
 
 main section.hero h1 {
@@ -141,7 +141,7 @@ main section.hero .secondary-heading {
 
   font-size:1.9rem;
   margin: 1rem;
-  color:beige;
+  color:cornflowerblue;
   text-align: center;
   letter-spacing: 0.2px;
 
@@ -234,7 +234,7 @@ main section.testimonials {
 */
 main section.testimonials h2 {
   font-size:x-large;
-  color:cadetblue;
+  color:rgb(72, 10, 196);
   text-align: center;
 }
 
@@ -263,20 +263,25 @@ main section.testimonials img {
 */
 
 main section.testimonials blockquote{
-  font-size:30px;
+  font-size:50px;
   text-align: center;
   background-color: #457b9dff;
-  color:honeydew;
+  color:rgb(72, 10, 196);
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  
 }
 
 footer{
   color: aliceblue;
+  margin: 50px;
 }
 
+h3 {
+  margin: 10px;
+}
  nav ul{
-  margin: 0rem;
+  margin: 0.5px;
   list-style: none;
 }
 
@@ -287,6 +292,11 @@ footer a{
 
 footer a:hover{
   text-decoration: underline;
+}
+
+.copywrite{
+  letter-spacing: 6.8px;
+  text-align: center;
 }
 
 /* AND THAT'S IT! YOU ARE DONE. CONGRATULATIONS. POST YOUR LINK! */
