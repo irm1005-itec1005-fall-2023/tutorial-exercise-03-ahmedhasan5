@@ -31,8 +31,8 @@ body {
 header {
   /* Set the text colour, margins and padding */
   color:aliceblue;
-  margin: 0rem;
-  padding: 1rem;
+  margin: 20px;
+  padding: 20px;
 
 }
 
@@ -40,11 +40,12 @@ header {
 header .site-title {
   /* Add some cool text styles to the site title */
   /* Experiment with the font-size, font-weight, text-transform, letter-spacing */
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   font-size: larger;
   font-weight:bold;
   text-transform: capitalize;
-  letter-spacing: 6.8px;
+  letter-spacing: 5.8px;
+  
 }
 
 
@@ -62,7 +63,7 @@ header nav ul {
   /* You may also have tweak the margin and padding */
 
   list-style: none;
-  margin: 20px;
+  margin: 10px;
   padding: 0.5px;
 }
 
@@ -190,12 +191,22 @@ main section.menu ul li{
   background-color:#a8dadcff;
   padding:15px;
   margin-top: 50px;
-  border-radius: 20px;
+  border-radius: 30px;
+  letter-spacing: 3px;
   
+}
+
+p{
+  text-indent: 2rem;
+}
+
+h3{
+  text-indent: 1.38rem;
 }
 
 main section.menu ul li:nth-child(even){
   background-color: aquamarine;
+  
 }
 
 /* Use psuedo classes nth-child(even)
