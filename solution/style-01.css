@@ -5,7 +5,7 @@
  */
 
 /* Styles for the light box */
-main .light-box {
+  .light-box {
   margin: 2rem 0;
   padding: 1rem;
   background-color: #f5f5f5;
@@ -14,7 +14,7 @@ main .light-box {
 }
 
 /* Styles for the dark box */
-main .dark-box {
+  .dark-box {
   padding: 1rem;
   margin: 2rem 0;
   background-color: #242121;
@@ -23,12 +23,12 @@ main .dark-box {
 }
 
 /* Styles for the link in the dark box */
-main .dark-box a {
+  .dark-box a {
   color: #e63946ff;
 }
 
 /* Styles for the red box */
-main .red-box {
+  .red-box {
   padding: 1rem;
   margin: 2rem 0;
   background-color: #e63946ff;
@@ -37,7 +37,7 @@ main .red-box {
 }
 
 /* Styles for the link in the dark box */
-main .red-box a {
+  .red-box a {
   color: #090909;
 }
 
